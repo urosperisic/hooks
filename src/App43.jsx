@@ -23,18 +23,18 @@ function App43() {
   return (
     <main>
       <h1>Hi</h1>
-      <form>
-        <div>
+      <form className="location-form">
+        <div className="form-control">
           <label htmlFor="name">Name:</label>
           <input id="name" type="text" placeholder="Name" {...name} />
         </div>
 
-        <div>
+        <div className="form-control">
           <label htmlFor="surname">Surname:</label>
           <input id="surname" type="text" placeholder="Surname" {...surname} />
         </div>
 
-        <div>
+        <div className="form-control">
           <label htmlFor="age">Age:</label>
           <input id="age" type="number" placeholder="Age" {...age} />
         </div>
